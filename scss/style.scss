@@ -79,6 +79,13 @@ body {
   border-radius: 30px;
   padding: 20px 54px;
 }
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -158,5 +165,13 @@ body {
     border: 1px solid $color-border;
     border-top: none;
     padding: 12px 19px 19px;
+  }
+}
+.map {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  &__img {
+    margin-top: 46px;
   }
 }

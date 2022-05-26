@@ -79,6 +79,12 @@ body {
   padding: 20px 54px;
 }
 
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,4 +188,13 @@ body {
   border: 1px solid #d9d9de;
   border-top: none;
   padding: 12px 19px 19px;
+}
+
+.map {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.map__img {
+  margin-top: 46px;
 }
