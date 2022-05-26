@@ -137,6 +137,8 @@ body {
   font-size: 90px;
   font-weight: 700;
   line-height: 130%;
+  text-align: center;
+  margin-bottom: auto;
 }
 .header__bottom-text {
   max-width: 430px;
@@ -144,4 +146,18 @@ body {
   font-weight: 700;
   line-height: 140%;
   margin-bottom: 20px;
+}
+.header__bottom-btn {
+  display: inline-block;
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+.header__arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15px;
 }

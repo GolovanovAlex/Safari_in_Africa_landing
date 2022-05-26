@@ -86,6 +86,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   &__inner {
     display: flex;
     flex-direction: column;
@@ -117,8 +118,8 @@ body {
     font-size: 90px;
     font-weight: 700;
     line-height: 130%;
-  }
-  &__bottom {
+    text-align: center;
+    margin-bottom: auto;
   }
   &__bottom-text {
     max-width: 430px;
@@ -128,8 +129,14 @@ body {
     margin-bottom: 20px;
   }
   &__bottom-btn {
+    display: inline-block;
+    max-width: 250px;
+    margin-bottom: 20px;
   }
   &__arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
   }
   &__arrow-link {
   }
