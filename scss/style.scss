@@ -138,8 +138,25 @@ body {
     justify-content: center;
     margin-bottom: 15px;
   }
-  &__arrow-link {
+}
+.direction {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 33px 32px;
   }
-  &__arrow-img {
+  &__item {
+  }
+  &__img {
+    display: block;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 18px;
+    border: 1px solid $color-border;
+    border-top: none;
+    padding: 12px 19px 19px;
   }
 }

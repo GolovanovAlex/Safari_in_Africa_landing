@@ -161,3 +161,25 @@ body {
           justify-content: center;
   margin-bottom: 15px;
 }
+
+.direction {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.direction__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 32px 1fr 32px 1fr 32px 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 33px 32px;
+}
+.direction__img {
+  display: block;
+}
+.direction__text {
+  font-size: 16px;
+  line-height: 18px;
+  border: 1px solid #d9d9de;
+  border-top: none;
+  padding: 12px 19px 19px;
+}
