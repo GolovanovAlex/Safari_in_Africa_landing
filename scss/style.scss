@@ -44,27 +44,29 @@ body {
   margin: 0 auto;
 }
 // ---- ---- main ---- ---- //
-.logo {
-  &__img {
-  }
-}
 .menu {
+  width: 100%;
   max-width: 1120px;
-  order: 3;
   border-top: 1px solid $color-text-light;
   border-bottom: 1px solid $color-text-light;
+  padding: 27px 0 24px;
+  margin-top: 15px;
   &__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
   }
   &__item {
-  }
-  &__link {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     color: $color-text-light;
+    &:hover {
+      background-color: $color-accent;
+    }
+  }
+  &__link {
+    padding: 27px 25px 24px;
   }
 }
 .button {
@@ -84,14 +86,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
   &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
   }
   &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 16px 0 49px;
   }
   &__phone {
     font-size: 16px;
@@ -100,12 +106,11 @@ body {
     color: $color-text-light;
   }
   &__phone-number {
-    font-size: 16px;
-    line-height: 130%;
-    color: $color-text-light;
+    font-weight: 400;
     background-color: $color-accent;
     border-radius: 22px;
     padding: 12px 31px;
+    margin-left: 19px;
   }
   &__title {
     font-family: 'PT Serif', serif;
@@ -123,5 +128,11 @@ body {
     margin-bottom: 20px;
   }
   &__bottom-btn {
+  }
+  &__arrow {
+  }
+  &__arrow-link {
+  }
+  &__arrow-img {
   }
 }
