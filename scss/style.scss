@@ -1,14 +1,15 @@
 // ---- ---- colors ---- ---- //
-// $color-white: #ffffff;
-// $color-button: #fdb827;
-// $color-header: #233506;
-// $color-title: #02283f;
-// $color-text: #5f6672;
-// $color-section: #fff9f2;
+$color-text-light: #ffffff;
+$color-text-dark: #1f1e1e;
+$color-text-accent: #c4c4c4;
+$color-accent: #886239;
+$color-border: #d9d9de;
+$color-bg: #eaeaea;
 // $color-btn: #ff800b;
 
 // ---- ---- fonts ---- ---- //
-
+// font-family: 'PT Serif', serif;
+// font-family: 'Roboto', sans-serif;
 // ---- ---- reset ---- ---- //
 *,
 *::before,
@@ -31,7 +32,96 @@ button {
 }
 // ---- ---- *** ---- ---- //
 body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  color: $color-text-dark;
 }
 .container {
+  max-width: 1140px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 // ---- ---- main ---- ---- //
+.logo {
+  &__img {
+  }
+}
+.menu {
+  max-width: 1120px;
+  order: 3;
+  border-top: 1px solid $color-text-light;
+  border-bottom: 1px solid $color-text-light;
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__item {
+  }
+  &__link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: $color-text-light;
+  }
+}
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: $color-text-light;
+  background-color: $color-accent;
+  border-radius: 30px;
+  padding: 20px 54px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/content/bg-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  &__inner {
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__phone {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 130%;
+    color: $color-text-light;
+  }
+  &__phone-number {
+    font-size: 16px;
+    line-height: 130%;
+    color: $color-text-light;
+    background-color: $color-accent;
+    border-radius: 22px;
+    padding: 12px 31px;
+  }
+  &__title {
+    font-family: 'PT Serif', serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  &__bottom {
+  }
+  &__bottom-text {
+    max-width: 430px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 20px;
+  }
+  &__bottom-btn {
+  }
+}

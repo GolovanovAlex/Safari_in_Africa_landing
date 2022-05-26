@@ -21,3 +21,108 @@ button {
   border: none;
   cursor: pointer;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #1f1e1e;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.menu {
+  max-width: 1120px;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu__link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #886239;
+  border-radius: 30px;
+  padding: 20px 54px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../images/content/bg-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.header__phone {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #ffffff;
+}
+.header__phone-number {
+  font-size: 16px;
+  line-height: 130%;
+  color: #ffffff;
+  background-color: #886239;
+  border-radius: 22px;
+  padding: 12px 31px;
+}
+.header__title {
+  font-family: "PT Serif", serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.header__bottom-text {
+  max-width: 430px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
