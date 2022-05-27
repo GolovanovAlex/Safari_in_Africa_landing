@@ -82,7 +82,7 @@ body {
 .title {
   font-size: 36px;
   font-weight: 500;
-  line-height: 42px;
+  line-height: 47px;
 }
 
 .header {
@@ -196,5 +196,94 @@ body {
   margin-bottom: 100px;
 }
 .map__img {
+  width: 100%;
   margin-top: 46px;
+}
+
+.about__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about__column {
+  max-width: 450px;
+  margin-right: 20px;
+}
+.about__title {
+  line-height: 42px;
+  margin-bottom: 25px;
+}
+.about__text {
+  margin-bottom: 34px;
+}
+.about__link {
+  font-size: 16px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #c4c4c4;
+}
+.content-text {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.content-text hr {
+  height: 1px;
+  background-color: #d9d9de;
+}
+.content-text__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 77px;
+}
+.content-text__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.content-text__column {
+  max-width: 540px;
+  margin-bottom: 65px;
+}
+.content-text__text + .content-text__text {
+  margin-top: 40px;
+}
+.content-text__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content-text__item {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+}
+.content-text__item span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "PT Serif", serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #886239;
 }
