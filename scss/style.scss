@@ -167,6 +167,32 @@ body {
     padding: 12px 19px 19px;
   }
 }
+.info {
+  background-image: url(../images/content/bg-info.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    color: $color-text-light;
+    text-align: center;
+    padding-top: 32px;
+    margin-bottom: 52px;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 232px;
+  }
+  &__img {
+  }
+  &__descr {
+    font-size: 16px;
+    line-height: 21px;
+    color: $color-text-light;
+  }
+}
 .map {
   text-align: center;
   padding-top: 100px;
