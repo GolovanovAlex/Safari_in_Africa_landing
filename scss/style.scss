@@ -297,7 +297,7 @@ body {
   background-color: $color-accent;
   color: $color-text-light;
   padding-top: 50px;
-  padding-bottom: 85px;
+  padding-bottom: 84px;
 
   &__top {
     display: flex;
@@ -311,18 +311,13 @@ body {
     text-decoration-line: underline;
     padding-right: 160px;
   }
-  &__slider {
-  }
-  &__item {
-  }
   &__item-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
   }
-  &__item-link {
-  }
   &__item-img {
+    width: 100%;
   }
 }
 .arrow {

@@ -409,7 +409,7 @@ body {
   background-color: #886239;
   color: #ffffff;
   padding-top: 50px;
-  padding-bottom: 85px;
+  padding-bottom: 84px;
 }
 .gallery__top {
   display: -webkit-box;
@@ -437,6 +437,10 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
 }
+.gallery__item-img {
+  width: 100%;
+}
+
 .arrow {
   position: absolute;
   top: -58px;
