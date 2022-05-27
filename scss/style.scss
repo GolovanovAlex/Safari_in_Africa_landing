@@ -263,11 +263,11 @@ body {
   &__title {
     margin-bottom: 46px;
   }
-
-  // &__img {
-  //   width: 100%;
-  //   margin-top: 46px;
-  // }
+  //Закоментировать при другой карте.
+  &__img {
+    width: 100%;
+    margin-top: 46px;
+  }
 }
 
 .about {

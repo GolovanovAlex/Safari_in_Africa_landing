@@ -373,6 +373,10 @@ body {
 .map__title {
   margin-bottom: 46px;
 }
+.map__img {
+  width: 100%;
+  margin-top: 46px;
+}
 
 .about__inner {
   display: -webkit-box;
