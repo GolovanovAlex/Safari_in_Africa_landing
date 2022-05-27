@@ -228,11 +228,10 @@ body {
 }
 .content-text {
   padding-top: 100px;
-  margin-bottom: 100px;
 }
 .content-text hr {
-  height: 1px;
   background-color: #d9d9de;
+  margin: 0;
 }
 .content-text__title {
   text-align: center;
@@ -255,32 +254,26 @@ body {
   margin-top: 40px;
 }
 .content-text__items {
+  padding: 44px 0 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .content-text__item {
   font-size: 20px;
   font-weight: 500;
   line-height: 130%;
   text-align: center;
+  width: 135px;
+}
+.content-text__item:nth-child(4) {
+  width: 270px;
 }
 .content-text__item span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: block;
   font-family: "PT Serif", serif;
   font-size: 58px;
   font-weight: 700;

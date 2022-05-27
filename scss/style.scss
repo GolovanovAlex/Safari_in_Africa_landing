@@ -205,10 +205,10 @@ body {
 }
 .content-text {
   padding-top: 100px;
-  margin-bottom: 100px;
+
   hr {
-    height: 1px;
     background-color: $color-border;
+    margin: 0;
   }
   &__inner {
   }
@@ -233,20 +233,23 @@ body {
   &__number {
   }
   &__items {
+    padding: 44px 0 100px;
+
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
   &__item {
     font-size: 20px;
     font-weight: 500;
     line-height: 130%;
     text-align: center;
+    width: 135px;
+    &:nth-child(4) {
+      width: 270px;
+    }
 
     span {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      display: block;
       font-family: 'PT Serif', serif;
       font-size: 58px;
       font-weight: 700;
