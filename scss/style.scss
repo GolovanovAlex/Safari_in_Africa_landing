@@ -292,10 +292,48 @@ body {
     text-decoration-line: underline;
     color: $color-text-accent;
   }
-  &__video-box {
+}
+.gallery {
+  background-color: $color-accent;
+  color: $color-text-light;
+  padding-top: 50px;
+  padding-bottom: 85px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
   }
-  &__video {
+  &__link {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    padding-right: 160px;
   }
+  &__slider {
+  }
+  &__item {
+  }
+  &__item-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+  &__item-link {
+  }
+  &__item-img {
+  }
+}
+.arrow {
+  position: absolute;
+  top: -58px;
+}
+.arrow-prev {
+  right: 60px;
+}
+.arrow-next {
+  right: 0;
 }
 .content-text {
   padding-top: 100px;

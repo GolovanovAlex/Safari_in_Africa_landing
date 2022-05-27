@@ -404,6 +404,52 @@ body {
           text-decoration-line: underline;
   color: #c4c4c4;
 }
+
+.gallery {
+  background-color: #886239;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 85px;
+}
+.gallery__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.gallery__link {
+  font-size: 16px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  padding-right: 160px;
+}
+.gallery__item-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 32px 1fr 32px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.arrow {
+  position: absolute;
+  top: -58px;
+}
+
+.arrow-prev {
+  right: 60px;
+}
+
+.arrow-next {
+  right: 0;
+}
+
 .content-text {
   padding-top: 100px;
 }
