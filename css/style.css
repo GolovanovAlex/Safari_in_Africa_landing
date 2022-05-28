@@ -513,3 +513,92 @@ body {
   line-height: 130%;
   color: #886239;
 }
+
+.booking {
+  background-color: #eaeaea;
+  padding: 75px 0;
+}
+.booking__title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.form__input::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+
+.form__input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+
+.form__input:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+
+.form__input::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+
+.form__input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+.form__input-area {
+  max-width: 832px;
+  min-height: 112px;
+}
+.form__input-area::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+.form__input-area::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+.form__input-area:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+.form__input-area::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+.form__input-area::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 130%;
+  color: #c4c4c4;
+}
+.form__btn {
+  max-width: 168px;
+}
+.form__link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #1f1e1e;
+  text-decoration: underline;
+}
