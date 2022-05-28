@@ -378,6 +378,9 @@ body {
   margin-top: 46px;
 }
 
+.about {
+  margin-bottom: 100px;
+}
 .about__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -473,7 +476,12 @@ body {
   padding-bottom: 65px;
 }
 .content-text__column {
+  -ms-flex-preferred-size: fit-content;
+      flex-basis: fit-content;
   max-width: 540px;
+}
+.content-text__column + .content-text__column {
+  margin-left: 25px;
 }
 .content-text__text + .content-text__text {
   margin-top: 40px;

@@ -269,8 +269,8 @@ body {
     margin-top: 46px;
   }
 }
-
 .about {
+  margin-bottom: 100px;
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -347,7 +347,11 @@ body {
     padding-bottom: 65px;
   }
   &__column {
+    flex-basis: fit-content;
     max-width: 540px;
+    & + & {
+      margin-left: 25px;
+    }
   }
   &__text {
     & + & {
