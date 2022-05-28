@@ -524,76 +524,112 @@ body {
   margin-bottom: 43px;
 }
 
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 830px;
+  margin: 0 auto;
+}
+.form__input {
+  width: 256px;
+  height: 44px;
+  font-size: 16px;
+  border: 1px solid #d9d9de;
+  padding: 11px 14px 12px;
+}
+.form__input + .form__input {
+  margin-left: 15px;
+}
 .form__input::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
-
 .form__input::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
-
 .form__input:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
-
 .form__input::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
-
 .form__input::placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
 .form__input-area {
-  max-width: 832px;
-  min-height: 112px;
+  width: 100%;
+  height: 112px;
+  font-size: 16px;
+  border: 1px solid #d9d9de;
+  padding: 14px;
+  margin: 28px 0 68px;
+  resize: none;
 }
 .form__input-area::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
 .form__input-area::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
 .form__input-area:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
 .form__input-area::-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
 .form__input-area::placeholder {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   font-size: 130%;
   color: #c4c4c4;
 }
 .form__btn {
-  max-width: 168px;
+  max-width: 300px;
 }
 .form__link {
   font-size: 16px;

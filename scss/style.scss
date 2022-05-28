@@ -395,8 +395,23 @@ body {
 }
 
 .form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 830px;
+  margin: 0 auto;
   &__input {
+    width: 256px;
+    height: 44px;
+    font-size: 16px;
+    border: 1px solid $color-border;
+    padding: 11px 14px 12px;
+    & + & {
+      margin-left: 15px;
+    }
     &::placeholder {
+      font-family: 'Roboto', sans-serif;
       font-size: 16px;
       font-weight: 400;
       font-size: 130%;
@@ -404,9 +419,16 @@ body {
     }
   }
   &__input-area {
-    max-width: 832px;
-    min-height: 112px;
+    width: 100%;
+    height: 112px;
+    font-size: 16px;
+    border: 1px solid $color-border;
+    padding: 14px;
+    margin: 28px 0 68px;
+    resize: none;
+
     &::placeholder {
+      font-family: 'Roboto', sans-serif;
       font-size: 16px;
       font-weight: 400;
       font-size: 130%;
@@ -414,7 +436,7 @@ body {
     }
   }
   &__btn {
-    max-width: 168px;
+    max-width: 300px;
   }
   &__label {
   }
