@@ -631,10 +631,43 @@ body {
 .form__btn {
   max-width: 300px;
 }
-.form__link {
+.form__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 130%;
   color: #1f1e1e;
-  text-decoration: underline;
+}
+.form__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  padding-left: 45px;
+}
+.form__checkbox:checked + .form__checkbox-style::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  background-color: #886239;
+  border-radius: 2px;
+}
+.form__checkbox-style {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border: 2px solid #c4c4c4;
+  border-radius: 2px;
+  margin-left: -45px;
 }

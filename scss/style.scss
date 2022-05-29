@@ -383,7 +383,6 @@ body {
     }
   }
 }
-
 .booking {
   background-color: $color-bg;
   padding: 75px 0;
@@ -393,7 +392,6 @@ body {
     margin-bottom: 43px;
   }
 }
-
 .form {
   display: flex;
   justify-content: space-between;
@@ -439,14 +437,40 @@ body {
     max-width: 300px;
   }
   &__label {
-  }
-  &__checkbox {
-  }
-  &__link {
+    display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 130%;
     color: $color-text-dark;
-    text-decoration: underline;
+  }
+  &__checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding-left: 45px;
+    &:checked {
+      & + .form__checkbox-style::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 18px;
+        height: 18px;
+        background-color: $color-accent;
+        border-radius: 2px;
+      }
+    }
+  }
+  &__checkbox-style {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border: 2px solid $color-text-accent;
+    border-radius: 2px;
+    margin-left: -45px;
   }
 }
