@@ -517,9 +517,32 @@ body {
 }
 
 // ---- ---- media ---- ---- //
+@media (max-width: 1000px) {
+  .about {
+    &__video {
+      width: 410px;
+      height: 320px;
+    }
+  }
+}
+
 @media (max-width: 900px) {
   .header__title {
     font-size: 78px;
+  }
+  .content-text {
+    &__items {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding-bottom: 50px;
+    }
+    &__item {
+      width: 180px;
+      margin-bottom: 40px;
+    }
+    &__item:nth-child(4) {
+      width: 350px;
+    }
   }
 }
 @media (max-width: 830px) {
@@ -547,6 +570,22 @@ body {
     &__phone {
       display: flex;
       flex-direction: column;
+    }
+  }
+  .about {
+    margin-bottom: 50px;
+    &__inner {
+      display: block;
+      font-size: 16px;
+      line-height: 140%;
+    }
+    &__column {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
+    &__video-box {
+      text-align: center;
     }
   }
 }
@@ -579,7 +618,50 @@ body {
     }
   }
 }
+@media (max-width: 600px) {
+  .content-text {
+    padding-top: 50px;
+    &__box {
+      display: block;
+      padding-bottom: 25px;
+    }
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__column {
+      font-size: 16px;
+      line-height: 130%;
+      & + & {
+        margin-left: 0;
+      }
+    }
+    &__text {
+      & + & {
+        margin-top: 0;
+      }
+      margin-bottom: 25px;
+    }
+    &__item {
+      width: 125px;
+      font-size: 18px;
+      margin-bottom: 25px;
+      span {
+        font-size: 40px;
+      }
+    }
+    &__item:nth-child(4) {
+      width: 185px;
+    }
+  }
+}
+
 @media (max-width: 500px) {
+  .about {
+    &__video {
+      width: 380px;
+      height: 250px;
+    }
+  }
   .form {
     &__label {
       font-size: 14px;
@@ -591,6 +673,36 @@ body {
     font-size: 26px;
     line-height: 130%;
   }
+  .about {
+    &__video {
+      width: 320px;
+      height: 200px;
+    }
+  }
+  .content-text {
+    padding-top: 25px;
+    &__box {
+      padding-bottom: 20px;
+    }
+    &__title {
+      margin-bottom: 35px;
+    }
+
+    &__text {
+      & + & {
+        margin-top: 0;
+      }
+      margin-bottom: 20px;
+    }
+    &__items {
+      padding: 25px 0;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      margin-bottom: 15px;
+    }
+  }
   .form {
     &__label {
       margin-left: 45px;
@@ -598,6 +710,12 @@ body {
   }
 }
 @media (max-width: 360px) {
+  .about {
+    &__video {
+      width: 285px;
+      height: 190px;
+    }
+  }
   .form {
     &__label {
       margin-left: 90px;
