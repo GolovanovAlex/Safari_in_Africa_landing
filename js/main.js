@@ -20,3 +20,10 @@ $(function () {
     },
   });
 });
+
+// ---- ---- hamburger ---- ---- //
+let button = document.querySelector('.burger-menu');
+let btn = document.querySelector('.burger-menu__icon');
+button.onclick = function () {
+  btn.classList.toggle('active');
+};
