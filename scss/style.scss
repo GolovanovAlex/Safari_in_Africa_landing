@@ -474,3 +474,45 @@ body {
     margin-left: -45px;
   }
 }
+
+.footer {
+  background-color: $color-text-dark;
+  padding: 80px 0;
+  &__logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 832px;
+    font-size: 14px;
+    line-height: 130%;
+    color: $color-text-light;
+    margin: 0 auto;
+  }
+
+  &__text {
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+  &__descr {
+    line-height: 140%;
+    opacity: 0.8;
+  }
+  &__link-law {
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 5px;
+  }
+  &__phone {
+    display: block;
+    opacity: 0.8;
+    margin-bottom: 5px;
+  }
+  &__email {
+    opacity: 0.8;
+  }
+}

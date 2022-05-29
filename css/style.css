@@ -671,3 +671,50 @@ body {
   border-radius: 2px;
   margin-left: -45px;
 }
+
+.footer {
+  background-color: #1f1e1e;
+  padding: 80px 0;
+}
+.footer__logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 832px;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.footer__text {
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.footer__descr {
+  line-height: 140%;
+  opacity: 0.8;
+}
+.footer__link-law {
+  display: inline-block;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.footer__phone {
+  display: block;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+.footer__email {
+  opacity: 0.8;
+}
