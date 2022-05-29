@@ -673,15 +673,15 @@ body {
     top: 15px;
     right: 10px;
   }
-  .menu.active {
+  .menu {
     position: fixed;
-    display: flex;
-
-    top: -10px;
+    top: -13px;
     left: 0;
     right: 0;
     z-index: 5;
     background-color: $color-accent;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-110%);
     &__list {
       display: flex;
       text-align: center;
@@ -689,19 +689,26 @@ body {
     }
     &__item {
       width: 100%;
-      padding: 10px 30px;
+      padding: 10px 25px;
       &:hover {
       }
     }
     &__link {
       color: $color-text-light;
       &:hover {
-        color: red;
+        text-decoration: underline;
       }
     }
   }
+  .menu.active {
+    transition: all 0.4s ease-in-out;
+    transform: translateY(0);
+  }
 }
 @media (max-width: 600px) {
+  .header__title {
+    font-size: 50px;
+  }
   .content-text {
     padding-top: 50px;
     &__box {
