@@ -474,14 +474,13 @@ body {
     margin-left: -45px;
   }
 }
-
 .footer {
   background-color: $color-text-dark;
   padding: 80px 0;
   &__logo {
     display: block;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
   }
   &__inner {
     display: flex;
@@ -515,4 +514,14 @@ body {
   &__email {
     opacity: 0.8;
   }
+}
+
+// ---- ---- media ---- ---- //
+@media (max-width: 1000px) {
+}
+@media (max-width: 1000px) {
+}
+@media (max-width: 1000px) {
+}
+@media (max-width: 360px) {
 }
