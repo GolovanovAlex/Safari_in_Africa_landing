@@ -75,6 +75,9 @@ body {
   border-radius: 30px;
   padding: 20px 54px;
 }
+.button:hover {
+  text-decoration: underline;
+}
 
 .title {
   font-size: 36px;
@@ -508,6 +511,32 @@ body {
   right: 0;
 }
 
+.slick-dots {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.slick-active button {
+  background-color: #886239;
+}
+
 .content-text {
   padding-top: 100px;
 }
@@ -806,12 +835,21 @@ body {
 }
 @media (max-width: 880px) {
   .direction {
+    padding-bottom: 50px;
     margin: 0 auto;
   }
   .direction__inner {
     margin: 0 auto;
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .arrow--direction-prev {
+    right: 60%;
+  }
+
+  .arrow--direction-next {
+    right: 30%;
   }
 }
 @media (max-width: 830px) {
@@ -864,6 +902,17 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .info__box {
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px 20px;
+  }
+  .info__item:last-child {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+
   .booking {
     padding: 50px 0;
   }
@@ -958,16 +1007,17 @@ body {
   }
 
   .direction__inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: block;
+    text-align: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .direction__img {
+    margin: 0 auto;
+  }
+  .direction__text {
+    margin: 0 auto;
   }
 
   .content-text {
@@ -1006,6 +1056,22 @@ body {
   }
 }
 @media (max-width: 500px) {
+  .info__box {
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 20px;
+    text-align: center;
+  }
+  .info__item {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .info__item:last-child {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+
   .about__video {
     width: 380px;
     height: 250px;

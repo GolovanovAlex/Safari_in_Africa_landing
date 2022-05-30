@@ -75,6 +75,9 @@ body {
   background-color: $color-accent;
   border-radius: 30px;
   padding: 20px 54px;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .title {
@@ -374,6 +377,27 @@ body {
 .arrow-next {
   right: 0;
 }
+.slick-dots {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+
+  button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: $color-text-accent;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+}
+.slick-active button {
+  background-color: $color-accent;
+}
+
 .content-text {
   padding-top: 100px;
 
@@ -599,11 +623,18 @@ body {
 }
 @media (max-width: 880px) {
   .direction {
+    padding-bottom: 50px;
     margin: 0 auto;
     &__inner {
       margin: 0 auto;
       grid-template-columns: repeat(2, 1fr);
     }
+  }
+  .arrow--direction-prev {
+    right: 60%;
+  }
+  .arrow--direction-next {
+    right: 30%;
   }
 }
 @media (max-width: 830px) {
@@ -651,6 +682,15 @@ body {
   }
 }
 @media (max-width: 700px) {
+  .info {
+    &__box {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 45px 20px;
+    }
+    &__item:last-child {
+      grid-column: 2/3;
+    }
+  }
   .booking {
     padding: 50px 0;
     &__title {
@@ -730,9 +770,15 @@ body {
   }
   .direction {
     &__inner {
-      display: flex;
-      flex-direction: column;
+      display: block;
+      text-align: center;
       align-items: center;
+    }
+    &__img {
+      margin: 0 auto;
+    }
+    &__text {
+      margin: 0 auto;
     }
   }
   .content-text {
@@ -772,6 +818,20 @@ body {
 }
 
 @media (max-width: 500px) {
+  .info {
+    &__box {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px 20px;
+      text-align: center;
+    }
+    &__item {
+      transform: scale(0.8);
+    }
+    &__item:last-child {
+      grid-column: 1/2;
+    }
+  }
+
   .about {
     &__video {
       width: 380px;
