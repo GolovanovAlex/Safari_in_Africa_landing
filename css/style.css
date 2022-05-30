@@ -292,6 +292,7 @@ body {
   gap: 32px;
   border-bottom: 1px solid #d9d9de;
   padding-bottom: 80px;
+  overflow: hidden;
 }
 .popular__box > *:nth-child(1) {
   -ms-grid-row: 1;
@@ -805,6 +806,118 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
   }
+
+  .popular__box {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (256px)[6];
+    grid-template-rows: repeat(6, 256px);
+  }
+
+  .popular__box > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+
+  .popular__box > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(5) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(6) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+  }
+
+  .popular__box > *:nth-child(7) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(8) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(9) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+
+  .popular__box > *:nth-child(10) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(11) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(12) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }
+
+  .popular__box > *:nth-child(13) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(14) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(15) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
+
+  .popular__box > *:nth-child(16) {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(17) {
+    -ms-grid-row: 6;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(18) {
+    -ms-grid-row: 6;
+    -ms-grid-column: 3;
+  }
+
+  .grid__three {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+  }
+
+  .grid__six {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
+  }
 }
 @media (max-width: 1000px) {
   .about__video {
@@ -911,6 +1024,111 @@ body {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
+  }
+
+  .popular__box {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (256px)[8];
+    grid-template-rows: repeat(8, 256px);
+  }
+
+  .popular__box > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(3) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(5) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(6) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(7) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(8) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(9) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(10) {
+    -ms-grid-row: 5;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(11) {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(12) {
+    -ms-grid-row: 6;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(13) {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(14) {
+    -ms-grid-row: 7;
+    -ms-grid-column: 2;
+  }
+
+  .popular__box > *:nth-child(15) {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+  }
+
+  .popular__box > *:nth-child(16) {
+    -ms-grid-row: 8;
+    -ms-grid-column: 2;
+  }
+
+  .grid__three {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2/4;
+  }
+
+  .grid__six {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 2;
+    grid-row: 6/8;
   }
 
   .booking {
@@ -1085,6 +1303,21 @@ body {
   .title {
     font-size: 26px;
     line-height: 130%;
+  }
+
+  .popular {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .popular__box {
+    display: block;
+  }
+  .popular__link {
+    height: 256px;
+    margin-bottom: 25px;
+  }
+  .popular__descr--big {
+    font-size: 18px;
   }
 
   .about__video {
