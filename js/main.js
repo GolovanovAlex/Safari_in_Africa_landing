@@ -1,9 +1,9 @@
 $(function () {
   $('.gallery__slider').slick({
     prevArrow:
-      '<button type="button" class="slick-btn slick-prev"><svg class="arrow arrow-prev"  width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="43.5" y="43.5" width="43" height="43" rx="21.5" transform="rotate(-180 43.5 43.5)" stroke="#C4C4C4"/><path d="M24 29L18 23.0016L24 17" stroke="#white" stroke-width="2" stroke-miterlimit="10"/></svg></button>',
+      '<button type="button" class="slick-btn slick-prev"><svg class="arrow arrow-prev"  width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="43.5" y="43.5" width="43" height="43" rx="21.5" transform="rotate(-180 43.5 43.5)" stroke="#C4C4C4"/><path d="M24 29L18 23.0016L24 17" stroke="white" stroke-width="2" stroke-miterlimit="10"/></svg></button>',
     nextArrow:
-      '<button type="button" class="slick-btn slick-next"><svg class="arrow arrow-next" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#C4C4C4"/><path d="M19.2207 17L25.2207 22.9984L19.2207 29" stroke="#white" stroke-width="2" stroke-miterlimit="10"/></svg></button>',
+      '<button type="button" class="slick-btn slick-next"><svg class="arrow arrow-next" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="43" height="43" rx="21.5" stroke="#C4C4C4"/><path d="M19.2207 17L25.2207 22.9984L19.2207 29" stroke="white" stroke-width="2" stroke-miterlimit="10"/></svg></button>',
   });
 
   $('.direction__inner').slick({
