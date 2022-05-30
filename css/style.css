@@ -1367,11 +1367,6 @@ body {
     height: 200px;
   }
 
-  .gallery__item-box {
-    -ms-grid-columns: (1fr)[1];
-    grid-template-columns: repeat(1, 1fr);
-  }
-
   .content-text {
     padding-top: 25px;
   }

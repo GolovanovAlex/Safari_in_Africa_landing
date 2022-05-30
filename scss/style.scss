@@ -931,11 +931,11 @@ body {
       height: 200px;
     }
   }
-  .gallery {
-    &__item-box {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
+  // .gallery {
+  //   &__item-box {
+  //     grid-template-columns: repeat(1, 1fr);
+  //   }
+  // }
   .content-text {
     padding-top: 25px;
     &__box {
