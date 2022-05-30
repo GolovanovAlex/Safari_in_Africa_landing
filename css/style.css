@@ -961,7 +961,7 @@ body {
   }
 
   .arrow--direction-next {
-    right: 30%;
+    right: 27%;
   }
 }
 @media (max-width: 830px) {
@@ -1186,6 +1186,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .header__phone-number {
+    margin-top: 10px;
+    margin-left: 0;
+  }
 
   .burger-menu {
     display: inline-block;
@@ -1405,12 +1409,6 @@ body {
     width: 240px;
   }
 
-  .header__phone {
-    width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .header__title {
     font-size: 44px;
   }
@@ -1430,6 +1428,6 @@ body {
   }
 
   .form__label {
-    margin-left: 90px;
+    margin-left: 100px;
   }
 }
