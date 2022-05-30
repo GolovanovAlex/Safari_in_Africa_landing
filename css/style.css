@@ -428,9 +428,8 @@ body {
 .map__title {
   margin-bottom: 46px;
 }
-.map__img {
+.map__google-map {
   width: 100%;
-  margin-top: 46px;
 }
 
 .about {
@@ -1131,6 +1130,14 @@ body {
     grid-row: 6/8;
   }
 
+  .map {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .map__google-map {
+    height: 400px;
+  }
+
   .booking {
     padding: 50px 0;
   }
@@ -1307,10 +1314,12 @@ body {
 
   .popular {
     padding-top: 50px;
-    padding-bottom: 50px;
   }
   .popular__box {
     display: block;
+  }
+  .popular__box {
+    padding-bottom: 25px;
   }
   .popular__link {
     height: 256px;
@@ -1318,6 +1327,10 @@ body {
   }
   .popular__descr--big {
     font-size: 18px;
+  }
+
+  .map__google-map {
+    height: 300px;
   }
 
   .about__video {
