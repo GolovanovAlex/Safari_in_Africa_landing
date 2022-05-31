@@ -785,6 +785,7 @@ body {
 }
 @media (max-width: 650px) {
   .header {
+    background-position: 85%;
     &__phone {
       width: 100%;
       align-items: center;
@@ -994,13 +995,13 @@ body {
     }
   }
   .header {
+    background-position: 79%;
     &__title {
       font-size: 44px;
     }
     &__bottom-text {
       font-size: 16px;
       line-height: 140%;
-      text-shadow: 0 0 6px $color-text-light;
     }
     &__bottom-btn {
       display: block;
