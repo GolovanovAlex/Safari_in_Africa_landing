@@ -378,7 +378,13 @@ body {
   }
   &__item-img {
     width: 100%;
+    height: 100%;
+    max-width: 352px;
+    max-height: 235px;
   }
+}
+.mfp-counter {
+  display: none;
 }
 .arrow {
   position: absolute;
