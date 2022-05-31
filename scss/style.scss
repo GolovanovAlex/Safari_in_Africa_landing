@@ -2,11 +2,11 @@
 $color-text-light: #ffffff;
 $color-text-dark: #1f1e1e;
 $color-text-accent: #c4c4c4;
-$color-accent: #886239;
+$color-accent: #a25f2a;
 $color-border: #d9d9de;
 $color-bg: #eaeaea;
-// $color-btn: #ff800b;
-
+// $color-accent: #886239;
+// a25f2a
 // ---- ---- fonts ---- ---- //
 // font-family: 'PT Serif', serif;
 // font-family: 'Roboto', sans-serif;
@@ -62,7 +62,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    color: $color-text-light;
+    color: $color-text-dark;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__link {
     padding: 27px 25px 24px;
@@ -139,8 +142,8 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-  background-image: url(../images/content/bg-header.jpg);
-  background-position: center;
+  background-image: url(../images/content/bg-header.webp);
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -169,13 +172,17 @@ body {
     border-radius: 22px;
     padding: 12px 31px;
     margin-left: 19px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__title {
     font-family: 'PT Serif', serif;
-    font-size: 90px;
+    font-size: 84px;
     font-weight: 700;
     line-height: 130%;
-    text-align: center;
+    color: $color-text-dark;
+    text-align: left;
     margin-bottom: auto;
   }
   &__bottom-text {
@@ -184,6 +191,7 @@ body {
     font-weight: 700;
     line-height: 140%;
     margin-bottom: 20px;
+    color: $color-text-light;
   }
   &__bottom-btn {
     display: inline-block;
@@ -206,6 +214,9 @@ body {
   }
   &__img {
     display: block;
+    width: 100%;
+    max-width: 256px;
+    max-height: 110px;
   }
   &__text {
     max-width: 256px;
@@ -218,7 +229,7 @@ body {
 }
 .info {
   padding: 32px 0 50px;
-  background-image: url(../images/content/bg-info.jpg);
+  background-image: url(../images/content/bg-info.webp);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -367,7 +378,13 @@ body {
   }
   &__item-img {
     width: 100%;
+    height: 100%;
+    max-width: 352px;
+    max-height: 235px;
   }
+}
+.mfp-counter {
+  display: none;
 }
 .arrow {
   position: absolute;
@@ -512,6 +529,7 @@ body {
     font-weight: 400;
     line-height: 130%;
     color: $color-text-dark;
+    cursor: pointer;
   }
   &__checkbox {
     position: absolute;
@@ -579,9 +597,15 @@ body {
     display: block;
     opacity: 0.8;
     margin-bottom: 5px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__email {
     opacity: 0.8;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -761,6 +785,7 @@ body {
 }
 @media (max-width: 650px) {
   .header {
+    background-position: 85%;
     &__phone {
       width: 100%;
       align-items: center;
@@ -970,13 +995,13 @@ body {
     }
   }
   .header {
+    background-position: 79%;
     &__title {
       font-size: 44px;
     }
     &__bottom-text {
       font-size: 16px;
       line-height: 140%;
-      text-shadow: 0 0 6px $color-text-light;
     }
     &__bottom-btn {
       display: block;
