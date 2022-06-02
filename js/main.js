@@ -35,6 +35,12 @@ $(function () {
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
     },
   });
+  $('.menu, .header__arrow').on('click', 'a', function (event) {
+    event.preventDefault();
+    let id = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({ scrollTop: top }, 1200);
+  });
 });
 
 // ---- ---- hamburger ---- ---- //
