@@ -1,5 +1,4 @@
-# Safari_in_Africa_landing
-# Seafood landing
+# Safari in Africa landing
 
 ### Use Skills
 
