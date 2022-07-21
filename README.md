@@ -10,7 +10,7 @@
 
 ---
 
-[Demo Link <br>![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://golovanovalex.github.io/Seafood_landing/)
+[Demo Link <br>![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://golovanovalex.github.io/Safari_in_Africa_landing/)
 
 ![mercedes01](readme/mercedes01.gif)
 
