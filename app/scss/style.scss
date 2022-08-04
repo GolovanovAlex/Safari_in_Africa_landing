@@ -1,3 +1,9 @@
+// ---- ---- reset ---- ---- //
+@import 'slick.scss';
+@import 'magnific-popup.scss';
+@import 'normalize.scss';
+@import 'myreset.scss';
+
 // ---- ---- colors ---- ---- //
 $color-text-light: #ffffff;
 $color-text-dark: #1f1e1e;
@@ -5,8 +11,7 @@ $color-text-accent: #c4c4c4;
 $color-accent: #a25f2a;
 $color-border: #d9d9de;
 $color-bg: #eaeaea;
-// $color-accent: #886239;
-// a25f2a
+
 // ---- ---- fonts ---- ---- //
 // font-family: 'PT Serif', serif;
 // font-family: 'Roboto', sans-serif;
