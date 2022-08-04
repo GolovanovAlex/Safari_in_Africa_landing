@@ -6,6 +6,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)
 
 ---
 
@@ -16,7 +17,7 @@
 ## Info
 
 Создано на основе YouTube канала [От 0 до 1.](https://www.youtube.com/c/%D0%9E%D1%820%D0%B4%D0%BE1/videos)  
-Для обучения и отработки работы c CSS и JavaScript.  
+Для обучения и отработки работы c CSS и JavaScript.
 
 ---
 
@@ -27,7 +28,3 @@
 <a href="mailto:leconseiller@yandex.ru" style="font-size: 20px; color: black;">
 
 - <a href="mailto:golovanov.a.a@yandex.ru" >Golovanov.a.a@yandex.ru</a>
-
-  
-  
-  
